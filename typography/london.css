@@ -1,0 +1,29 @@
+/*----RESET-----*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.1em;
+    
+}
+
+h1 {
+    font-size: 3em;
+    color: crimson;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3em;
+    color: black;
+    padding-top: 20px;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 3em;
+    color: crimson;
+    text-transform: uppercase;
+}
