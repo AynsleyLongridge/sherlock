@@ -12,34 +12,74 @@
 /*-----------Main------------*/
 
 h1 {
-    font-family: 'Satisfy', serif;
-    font-size: 3em;
-    letter-spacing: -1px;
-    color: ghostwhite;
-    padding-top: 10px;
+    font-size: 1.1em;
+    color: black;
     text-transform: none;
+    margin-bottom: 10px;
     
 }
 
 h2{
      font-family: 'Satisfy', serif;
-    margin-left: 100px;
     margin-top: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    font-size: 2.6em;
 }
 
 h3{
      font-family: 'Satisfy', serif;
     color: white;
+    font-size: 1.4em;
     float: right;
+    position: relative;
+    top:360px;
+    right: 20px;
+}
+
+h4{
+     font-family: 'Satisfy', serif;
+    font-size: 1.8em;
 }
 
 p{
     font-family: 'Roboto', serif;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    font-size: 0.95em;
 }
 
+.link {
+    font-family: 'Roboto', serif;
+    color: orangered;
+    text-decoration: none;
+}
+
+.link:hover {
+    font-family: 'Roboto', serif;
+    color:black;
+    text-decoration: none;
+}
+
+.start {
+    margin-top: 100px;
+}
+
+blockquote {
+    color: white;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 1.6em;
+    font-family: 'Satisfy', serif;
+}
+
+cite {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 120px;
+    padding-bottom: 150px;
+}
 /*----------------header---------*/
 
 .container {
@@ -63,11 +103,13 @@ p{
 
 nav {
     padding-top: 20px;
+ 
     font-family: 'Satisfy', serif;
-    padding-bottom: 0px;
+    padding-bottom: 40px;
     font-size: 2em;
-    color: #F23661;
+    color: orangered;
     text-decoration: none;
+    background-color: white;
     }
 
 nav ul {
@@ -83,11 +125,11 @@ nav ul li {
 }
 
 li a:hover {
-    color: #F23661;
+    color: orangered;
 }
 
 a {
-    color: #301E4F;
+    color: black;
     text-decoration: none;
     font-family: 'Satisfy', serif;
 }
@@ -97,6 +139,9 @@ a {
 }
 
 .parallax { 
+    
+    margin-bottom: 200px;
+
     /* The image used */
     background-image: url(pictures/parapic.jpg);
 
@@ -109,4 +154,302 @@ a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+/*----------parallax-----------*/
+
+.parallax2 { 
+    left:-2px;
+    background: url(pictures/banner.jpg) repeat fixed 10%;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+.parallax-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/*------------------POST IT------------------*/
+div a {
+  text-decoration:none;
+  color:#000;
+  background:#FFFFA5;
+  display:block;
+  height:150px;
+  width:150px;
+  padding:18px;
+  -moz-transition:-moz-transform .4s ease-in-out;
+  -o-transition:-o-transform .4s ease-in-out;
+  -webkit-transition:-webkit-transform .4s ease-in-out;
+  margin: 0 auto;
+}
+
+
+div a {
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+
+div a:hover, div a:focus {
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+
+/*--------------holmes------*/
+
+.p-holmes {
+    margin-left: 500px;
+    margin-top: -220px;
+   padding-right: 100px;
+}
+
+
+
+.holmespic {
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+
+/*-----------FOOTER-------*/
+
+footer {
+    
+    padding:40px;
+}
+
+.container2 {
+    background-color: black;
+    margin-top: 100px;
+}
+
+.footertext {
+    color: white;
+}
+
+/************************************************************************************
+MEDIA QUERIES
+*************************************************************************************/
+/* for 980px or less */
+@media screen and (max-width: 980px) {
+	
+  nav {
+    padding-top: 20px;
+    font-family: 'Satisfy', serif;
+    padding-bottom: 10px;
+    font-size: 1.9em;
+    color: #F23661;
+    text-decoration: none;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
+    
+    p{
+    font-family: 'Roboto', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.95em;
+}
+    
+.p-holmes {
+    margin-top: 100px;
+   margin-left: 50px;
+    margin-right: 0px;
+}
+
+
+
+.holmespic {
+    margin-top: 50px;
+    margin-left: 210px;
+}
+    
+    .parallax2 { 
+    left:-2px;
+    background: url(pictures/banner.jpg) repeat fixed 10%;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+    h2{
+     font-family: 'Satisfy', serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    font-size: 2.6em;
+    margin-left: 40px;
+        margin-right: 40px;
+}
+
+
+.parallax-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+cite {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 50px;
+    padding-bottom: 150px;
+}
+}
+
+	
+}
+
+/* for 700px or less */
+@media screen and (max-width: 600px) {
+
+    p {
+        font-size: 0.9em;
+    }
+
+    nav {
+    padding-top: 20px;
+    font-family: 'Satisfy', serif;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    color: #F23661;
+    text-decoration: none;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
+p{
+    font-family: 'Roboto', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.95em;
+}
+    
+.p-holmes {
+    margin-top: 100px;
+   margin-left: 50px;
+    margin-right: 0px;
+}
+
+
+
+.holmespic {
+    margin-top: 50px;
+    margin-left: 140px;
+}
+    
+    .parallax2 { 
+    left:-2px;
+    background: url(pictures/banner.jpg) repeat fixed 10%;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+    h2{
+     font-family: 'Satisfy', serif;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-top: 200px;
+    font-size: 2.6em;
+    margin-left: 40px;
+        margin-right: 40px;
+}
+
+
+.parallax-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+cite {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 50px;
+    padding-bottom: 150px;
+}
+}
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+nav {
+    padding-top: 20px;
+    font-family: 'Satisfy', serif;
+    padding-bottom: 10px;
+    font-size: 1em;
+    color: #F23661;
+    text-decoration: none;
+    }
+    
+    nav ul li {
+    display: inline;
+    margin: 10px;
+    text-decoration: none;
+}
+    
+ p{
+    font-family: 'Roboto', serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 0.95em;
+}
+    
+.p-holmes {
+    margin-top: 100px;
+   margin-left: 50px;
+    margin-right: 0px;
+}
+
+
+
+.holmespic {
+    margin-top: 50px;
+    margin-left: 90px;
+}
+    
+    .parallax2 { 
+    left:-2px;
+    background: url(pictures/banner.jpg) repeat fixed 10%;
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    
+    
+    
+}
+
+.parallax-inner {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+cite {
+    color: white;
+    font-size: 0.8em;
+    margin-left: 50px;
+    padding-bottom: 150px;
+}
+   
 }
