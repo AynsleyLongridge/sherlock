@@ -334,7 +334,6 @@ cite {
     
     nav ul li {
     display: inline;
-    margin: 10px;
     text-decoration: none;
 }
 p{
@@ -390,6 +389,18 @@ cite {
     margin-left: 50px;
     padding-bottom: 150px;
 }
+}
+
+/* for 480px or less */
+@media screen and (max-width: 540px) {
+    nav {
+    padding-top: 20px;
+    font-family: 'Satisfy', serif;
+    padding-bottom: 10px;
+    font-size: 1.3em;
+    color: #F23661;
+    text-decoration: none;
+    }
 }
 
 /* for 480px or less */
