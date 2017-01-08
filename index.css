@@ -13,18 +13,25 @@
 
 h1 {
     font-family: 'Satisfy', serif;
-    font-size: 6em;
-    color: #A6B1A8;
-    text-shadow: 2px 2px #1D2434;
-    padding-top: 300px;
+    font-size: 3em;
+    letter-spacing: -1px;
+    color: ghostwhite;
+    padding-top: 10px;
     text-transform: none;
     
 }
 
 h2{
+     font-family: 'Satisfy', serif;
     margin-left: 100px;
-    margin-top: 90px;
+    margin-top: 100px;
     margin-bottom: 20px;
+}
+
+h3{
+     font-family: 'Satisfy', serif;
+    color: white;
+    float: right;
 }
 
 p{
@@ -37,17 +44,69 @@ p{
 
 .container {
     
-    height: 760px;
+    height: 700px;
     background-image: url(pictures/banner.jpg)
     
 }
 
+.top {
+    background-color: black;
+}
 
-.container2 {
-    
-    height: 100px;
-    background-color: #2C374C;
-    
+.head {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 
+/*--------------- nav -------------*/
+
+nav {
+    padding-top: 20px;
+    font-family: 'Satisfy', serif;
+    padding-bottom: 0px;
+    font-size: 2em;
+    color: #F23661;
+    text-decoration: none;
+    }
+
+nav ul {
+    text-align: center;
+    text-transform: none;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #F23661;
+}
+
+a {
+    color: #301E4F;
+    text-decoration: none;
+    font-family: 'Satisfy', serif;
+}
+
+.glass {
+
+}
+
+.parallax { 
+    /* The image used */
+    background-image: url(pictures/parapic.jpg);
+
+    /* Set a specific height */
+    height: 400px; 
+    width: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
