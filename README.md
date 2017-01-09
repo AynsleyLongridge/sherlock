@@ -7,4 +7,4 @@
 
 
 ##typography exercise 
-- [Website](https://aynsleylongridge.github.io/sherlock/typography/helvetica.html)
+- [Exercise](https://aynsleylongridge.github.io/sherlock/typography/helvetica.html)
