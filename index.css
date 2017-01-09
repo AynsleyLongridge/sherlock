@@ -21,8 +21,8 @@ h1 {
 
 h2{
      font-family: 'Satisfy', serif;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    margin-top: 80px;
+    margin-bottom: 40px;
     margin-top: 200px;
     font-size: 2.6em;
 }
@@ -220,9 +220,115 @@ div a:hover, div a:focus {
     margin-left: 200px;
 }
 
+.silverscreen {
+    max-width: 100%;
+}
+/*-----------------slideshow--------------*/
 
+.css-slideshow{
+  position: relative;
+  max-width: 495px;
+  height: 370px;
+  margin: 5em auto .5em auto;
+}
+.css-slideshow figure{
+  margin: 0;
+  max-width: 495px;
+  height: 370px;
+  background: #000;
+  position: absolute;
+}
+.css-slideshow img{
+  box-shadow: 0 0 2px #666;
+}
+.css-slideshow figcaption{
+  position: absolute;
+  top: 0;
+  color: #fff;
+  background: rgba(0,0,0, .3);
+  font-size: .8em;
+  padding: 8px 12px;
+  opacity: 0;
+  transition: opacity .5s;
+}
+.css-slideshow:hover figure figcaption{
+  transition: opacity .5s;
+  opacity: 1;
+}
+.css-slideshow-attr{
+  max-width: 495px;
+  text-align: right;
+  font-size: .7em;
+  font-style: italic;
+  margin:0 auto;
+}
+.css-slideshow-attr a{
+  color: #666;
+}
+.css-slideshow figure{
+  opacity:0;
+}
+figure:nth-child(1) {
+  animation: xfade 48s 42s infinite;
+}
+figure:nth-child(2) {
+  animation: xfade 48s 36s infinite;
+}
+figure:nth-child(3) {
+  animation: xfade 48s 30s infinite;
+}
+figure:nth-child(4) {
+  animation: xfade 48s 24s infinite;
+}
+figure:nth-child(5) {
+  animation: xfade 48s 18s infinite;
+}
+figure:nth-child(6) {
+  animation: xfade 48s 12s infinite;
+}
+figure:nth-child(7) {
+  animation: xfade 48s 6s infinite;
+}
+figure:nth-child(8) {
+  animation: xfade 48s 0s infinite;
+}
+
+@keyframes xfade{
+  0%{
+    opacity: 1;
+  }
+  10.5% {
+    opacity: 1;
+  }
+  12.5%{
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 /*-----------FOOTER-------*/
+.pbreak {
+    margin-top: 250px;
+}
+.pbreak:hover {
+      -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
 
+.screen {
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+    
+}
 footer {
     
     padding:40px;
